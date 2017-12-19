@@ -1,0 +1,7 @@
+{
+    "auths": {
+        "<your_private_repo>": {
+            "auth": ""
+        }
+    }
+}
