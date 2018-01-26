@@ -18,7 +18,7 @@ RUN apt-get install -y docker-ce
 RUN curl -o apache-maven-3.5.2-bin.tar.gz http://mirror.dsrg.utoronto.ca/apache/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.tar.gz
 RUN tar xzfv /apache-maven-3.5.2-bin.tar.gz  -C /
 
-RUN apt-get install python python-pip
+RUN apt-get install -y python python-pip
 RUN pip install awscli
 
 RUN mkdir -p /root/.docker
